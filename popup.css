@@ -1,0 +1,45 @@
+/* Adjust the width of the popup */
+#popup-container {
+    width: 400px;
+    /* Change this value to your desired width */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* 100% viewport height for vertical centering */
+    text-align: center;
+    /* Center-align text within the container */
+}
+
+/* Background gradient */
+body {
+    background: linear-gradient(to bottom, purple, black);
+}
+
+/* Adjust the width of the buttons (optional)
+button {
+    width: 100%;
+} */
+
+button {
+    width: 80%;
+    /* Set a fixed width for the buttons */
+    height: 40px;
+    /* Set a fixed height for the buttons */
+    white-space: nowrap;
+    /* Prevent text from wrapping to the next line */
+    overflow: hidden;
+    /* Hide text that overflows the button */
+    text-overflow: ellipsis;
+    /* Add an ellipsis (...) for truncated text */
+    margin-bottom: 10px;
+    /* Add space between each button */
+    color: white;
+    /* Set the text color to white */
+    background: transparent;
+    /* Make the button background transparent */
+    border: 2px solid white;
+    /* Add a white border to the buttons */
+}
